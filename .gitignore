@@ -134,3 +134,7 @@ dmypy.json
 *.PNG 
 *.mp4
 *.png
+
+data/360/
+src/vrProjectorWrapper.py
+src/vrProjectorCmd
