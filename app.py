@@ -72,6 +72,9 @@ def main():
                 '''
                 Fisheye Logic
                 '''
+                image = out
+                results = yolo.predict(image)
+                results.show()
                 return
             elif approach == 2:
                 '''
@@ -94,6 +97,16 @@ def main():
                 '''
                 Equirectangular Logic
                 '''
+                fisheye = SideBySideFisheyeProjection()
+                fisheye.loadImage(image_path)
+                if args.useBilinear is not None and args.useBilinear.lower() == "true":
+                    fisheye.set_use_bilinear(True)
+                output = EquirectangularProjection()
+                output.initImage(int(args.output_width), int(args.output_height))
+                output.reprojectToThis(fisheye)
+                image = output.getImage()
+                results = yolo.predict(image)
+                results.show()
                 return
         return
     elif input == 3:
