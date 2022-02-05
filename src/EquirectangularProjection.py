@@ -29,3 +29,4 @@ class EquirectangularProjection(AbstractProjection):
     # phi: v: 0..1 - > -pi/2..pi/2
     phi = math.pi*(v-0.5)
     return (theta,phi)
+
