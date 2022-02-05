@@ -1,6 +1,8 @@
 
 <h1 align="center">:desktop_computer: 360° Machine Vision For Blind LiDAR Based Hat :desktop_computer:</h1>
 <h3 align="center">An Machine Vision System with Object Detection and Depth Estimation with Text to Speech for assisting a blind person</h3>
+
+
 ![Python](https://img.shields.io/badge/python-v3.7-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)

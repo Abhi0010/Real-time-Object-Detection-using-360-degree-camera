@@ -138,5 +138,5 @@ dmypy.json
 data/360/
 src/vrProjectorWrapper.py
 src/vrProjectorCmd
-
+360/
 *.pt
