@@ -1,6 +1,6 @@
 
 <h1 align="center">:desktop_computer: 360° Machine Vision For Blind LiDAR Based Hat :desktop_computer:</h1>
-<h3 align="center">An Machine Vision System with Object Detection and Depth Estimation with Text to Speech for assisting a blind person</h3>
+<h3 align="center">An Machine Vision System with Object Detection with Text to Speech for assisting a blind person</h3>
 
 
 ![Python](https://img.shields.io/badge/python-v3.7-blue)
@@ -22,10 +22,6 @@
 ./yolov5.py - # Detection and testing from pre-trained Yolov5 and Custom trained Yolov5
 ./start_server.sh - # Load all files and call app.py
 ```
-
-## Implementation
-
-TBD...
 
 
 ### User Guide
@@ -51,12 +47,10 @@ Example command for Fisheye to Equi:
 
 ## Authors
 
-👤 **Meet Doshi**
-
-- GitHub: [@meetdoshi90](https://github.com/meetdoshi90)
-- LinkedIn: [@meetdoshi90](https://linkedin.com/in/meetdoshi90)
-
 👤 **Abhishek Potdar**
+
+
+👤 **Meet Doshi**
 
 
 👤 **Aniket Kulkarni**
@@ -65,30 +59,9 @@ Example command for Fisheye to Equi:
 👤 **Shafina Charania**
 
 
-👤 **Param Shah**
-
-
 👤 **Omkar Gavandi**
 
 
 
 
-## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## 📝 License
-
-This project is licensed with [GNU General Public License](./LICENSE).
-
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/meetdoshi90" target="blank"><img align="center" src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="meetdoshi90" height="30" width="40" /></a>
-</p>
